@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Communication App</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <form action="">
+            <div>
+                <label for="email">FullName:</label>
+                <input type="text" id="fullname" class="fullname" placeholder="Enter Your FullName" />
+            </div>
+            <small id="fnameerror" class="errmsg"></small>
+
+            <div>
+                <label for="email">Email:</label>
+                <input  id="email" type="email" placeholder="Enter Your email" />
+            </div>
+            <small id="emailerror" class="errmsg"></small>
+
+            <div>
+                <label for="email">Password:</label>
+                <input class="password" id="password" type="password" placeholder="Enter Your password" />
+
+            </div>
+            <small id="passerr" class="errmsg"></small>
+
+            <div>
+                <label for="cpassword">Confirm Password:</label>
+                <input type="password" id="cpassword"class="cpassword" placeholder="Enter Your Password" />
+            </div>
+            <small id="cpasserr" class="errmsg"></small>
+
+            <div>
+                <button id="registerbtn">Register</button>
+            </div>
+
+            <small id="exist" class="errmsg"></small>
+
+
+        </form>
+
+    </div>
+    <script src="../javascript/regsiter.js"></script>
+</body>
+</html>

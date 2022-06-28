@@ -1,0 +1,72 @@
+<tr >
+    <td class="column">${fullname}</td>
+    <td class="column">${email}</td>
+    <td class="action">
+      <p ><a class="hyperlink" href="edit-user.html?id=${id}">Edit </a></p>
+      <span>|</span>
+      <button
+        id
+        type="button"
+        class="deletebtn"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+        onclick="deletion(${id})"
+      >
+        Delete
+      </button>
+
+      
+      <div
+      class="modal fade delete-container"
+      id="exampleModal"
+      tabindex="-1"
+      style="
+        width: 300px;
+        align-items: center;
+        display: flex;
+        margin-left: 500px;
+        margin-top: 200px;
+      "
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" style="border: 2px solid black">
+        <div class="modal-content">
+          <div
+            class="modal-header"
+            style="border-bottom: 2px solid black"
+          >
+            <h5 class="modal-title" id="exampleModalLabel">
+              Confirm File Deletion
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../image/questionmarkicon.png"
+              class="img"
+            /><span>Are You Sure ?</span>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="propmt-button"
+              data-bs-dismiss="modal"
+              id="okbtn"
+            >
+              Ok
+            </button>
+            <button type="button" class="propmt-button">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    </td>
+  </tr>

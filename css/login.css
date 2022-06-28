@@ -1,0 +1,56 @@
+.container {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.div {
+  margin-bottom: 15px;
+}
+input {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.password {
+  margin-right: 25px;
+}
+label {
+  margin-right: 15px;
+  text-align: left;
+  font-size: medium;
+  font-weight: bolder;
+}
+button {
+  background-color: aqua;
+  color: white;
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.email {
+  border: 2px solid black;
+  border-color: red;
+}
+a {
+  text-decoration: none;
+  font-size: medium;
+  color: black;
+}
+.errmsg {
+  text-align: justify;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}

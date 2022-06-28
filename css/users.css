@@ -1,0 +1,56 @@
+.row {
+  height: "30px";
+}
+.action {
+  display: flex;
+  height: 50px !important;
+}
+.hyperlink {
+  text-decoration: none;
+  color: black;
+}
+.tcontainer {
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 5px;
+}
+.theader {
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+.column {
+  border-right: 1.5px solid black;
+}
+h1 {
+  text-align: left;
+}
+span {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.deletebtn {
+  border: none;
+  margin-top: 8px;
+}
+#alertbox {
+  margin-top: 300px;
+}
+.delete-container {
+  width: "300px";
+  height: "300px";
+}
+.span {
+  font-size: xx-large;
+  color: white;
+  background-image: radial-gradient(circle, blue 70%, blue 30%);
+}
+.propmt-button {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
